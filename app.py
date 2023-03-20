@@ -23,6 +23,7 @@ while True:
     has_number = False
     has_special = False
 
+    # Iter through the password to check if any of the data is true in the password
     for char in user_password:
         if char in alphabet_lower:
             has_lower = True
@@ -33,6 +34,7 @@ while True:
         elif char in special_char:
             has_special = True
 
+    # Loop through the user's request to create a password until they successfully meet all the guidelines
     if len(user_password) < 10:
         print('Password must be at least 10 characters long.')
     elif not has_lower:
