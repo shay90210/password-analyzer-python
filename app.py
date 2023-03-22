@@ -43,9 +43,9 @@ while True:
     elif not has_upper:
         print('Password must contain at least one uppercase letter.')
     elif not has_number:
-        print('Password must contain at least one number.')
+        print('Password must contain at least one number 0-9.')
     elif not has_special:
-        print('Password must contain at least one special character.')
+        print('Password must contain at least one special character (i.e. !, @, #, $, %, &).')
     else:
         print('You successfully created a new password!')
         break
