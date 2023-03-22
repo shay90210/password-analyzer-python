@@ -29,3 +29,9 @@ I installed the following in the project:
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": ["--errors-only"]
+
+## USAGE INSTRUCTIONS
+- To run this code, you will need to open the VS Code terminal by typing Ctrl + `. Once the terminal is opened, type python + the corresponding name of the file where the code exists. In this project, the file name is app.py.
+
+- Therefore, the user will need to type python + app.py + ENTER.
+
