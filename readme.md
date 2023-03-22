@@ -26,6 +26,7 @@ I installed the following in the project:
 - Use Ctrl/Cmd+ to open settings
 - Click file icon
 - in settings.json add the following below into the curly braces at the bottom:
+
 "editor.formatOnSave": true,
 "python.linting.enabled": true,
 "python.linting.pylintEnabled": true,
