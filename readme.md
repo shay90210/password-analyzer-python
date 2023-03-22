@@ -21,14 +21,15 @@ I installed the following in the project:
 - pip install pylint
 - pip install pep8
 - pip install --upgrade autopep8
+
 - Update VS Code Settings
--- Use Ctrl/Cmd+ to open settings
--- Click file icon
--- in settings.json add the following below into the curly braces at the bottom:
---  "editor.formatOnSave": true,
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintArgs": ["--errors-only"]
+- Use Ctrl/Cmd+ to open settings
+- Click file icon
+- in settings.json add the following below into the curly braces at the bottom:
+"editor.formatOnSave": true,
+"python.linting.enabled": true,
+"python.linting.pylintEnabled": true,
+"python.linting.pylintArgs": ["--errors-only"]
 
 ## USAGE INSTRUCTIONS
 - To run this code, you will need to open the VS Code terminal by typing Ctrl + `. Once the terminal is opened, type python + the corresponding name of the file where the code exists. In this project, the file name is app.py.
