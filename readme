@@ -12,4 +12,20 @@ I chose this project because I have a heavy interest in the cybersecurity side s
 - Data structures using tuples to hold alphabet, numbers, and special characters
 - While loop to loop through the entire password process until a password is successfully created
 - String module to shorten adding the alphabet (upper and lower case) and numbers data 
-- 
+
+## INSTALLATION INSTRUCTIONS
+I installed the following in the project:
+- Download Python 3.11.2 
+- Install VS Code Python Extension Intellisense (if using VS Code)
+- python -m pip install --upgrade pip
+- pip install pylint
+- pip install pep8
+- pip install --upgrade autopep8
+- Update VS Code Settings
+-- Use Ctrl/Cmd+ to open settings
+-- Click file icon
+-- in settings.json add the following below into the curly braces at the bottom:
+--  "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": ["--errors-only"]
