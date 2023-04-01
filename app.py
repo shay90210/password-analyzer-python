@@ -50,4 +50,3 @@ while True:
         print('Password MUST contain at least one special character (i.e. !, @, #, $, %, &).')
     else:
         print('You successfully created a new password!')
-        break
